@@ -1,8 +1,8 @@
 body {
+  background-color: brown;
   background-image: url("img/img2.jpg");
   opacity: 0.4;
-  background-repeat: repeat-x;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
 }
