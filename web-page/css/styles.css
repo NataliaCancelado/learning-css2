@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Roboto-Bold.ttf";
+  scr: url ("../fonts/Roboto-Bold.ttf");
+}
+
 html,
 body {
   padding: 0;
