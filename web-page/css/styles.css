@@ -1,2 +1,8 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #fff;
+}
+
 @import "./fonts.css";
 @import "./common.css";
+@import "./header.css";
