@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Roboto-Bold.ttf";
-  scr: url ("../fonts/Roboto-Bold.ttf");
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
 }
 
 html,
@@ -8,6 +8,7 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
+  font-family: "Roboto-Bold";
 }
 #container {
   max-width: 1200px;
