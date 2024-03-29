@@ -1,8 +1,13 @@
 :root {
   --primary-color: #fff;
-  --secondary-color: #fff;
+  --primary-color-dark: #ccc;
+  --secondary-color: #f9b5ac;
+  --secondary-color-dark: #ee7674;
+  --gray-color: #ccc;
+  --gray-color-dark: #333;
 }
 
 @import "./fonts.css";
+@import "./colors.css";
 @import "./common.css";
 @import "./header.css";
