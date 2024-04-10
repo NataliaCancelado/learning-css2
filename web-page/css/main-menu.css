@@ -1,5 +1,9 @@
 #main-menu {
   float: left;
   width: 100%;
-  background-color: bisque;
+  background-color: var(--primary-color);
+  box-shadow: 2px 2px 5px;
+}
+#main-menu > ul > li {
+  float: left;
 }
