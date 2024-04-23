@@ -1,4 +1,16 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
 html,
 body {
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto-Bold", Arial, Helvetica, sans-serif, Helvetica,
+    sans-serif;
+}
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
