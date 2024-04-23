@@ -1,7 +1,5 @@
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("../fonts/Roboto/Roboto-Bold.ttf");
-}
+@import "./fonts.css";
+@import "./common.css";
 
 html,
 body {
