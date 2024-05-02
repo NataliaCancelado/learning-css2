@@ -1,5 +1,8 @@
 @import "./fonts.css";
 @import "./common.css";
+@import "./header.css";
+@import "./main-menu.html";
+@import "./colors.css";
 
 html,
 body {
