@@ -7,3 +7,11 @@
 #main-menu > ul > li {
   float: left;
 }
+#main-menu > ul > li > a {
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-right: solid 1px var(--primary-color-dark);
+}
+#main-menu > ul > li > a:hover {
+}
