@@ -15,3 +15,28 @@
 }
 #main-menu > ul > li > a:hover {
 }
+#main-menu > ul > li > ul {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+}
+#main-menu > ul > li > ul > li > a {
+  display: block;
+  color: blanchedalmond;
+  background: var(--secundary-color);
+  padding: 15px;
+  font-size: 18px;
+  border-top: solid 1px var(--gray-color);
+}
+#main-menu > ul > li > ul > li > a:hover {
+  background-color: var(--secundary-color-dark);
+}
+#main-menu > ul > li:hover > ul {
+  display: block;
+  box-shadow: 2px 2px 5px var(--gray-color);
+}
+@media (max-width 700px) {
+  #main-menu > ul > li {
+    width: 100%;
+  }
+}
